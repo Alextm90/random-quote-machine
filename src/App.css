@@ -50,7 +50,7 @@
    left: 371px;
   }
 
-  .button {
+.button {
     border: none;
     border-radius: 3px;
     background-color: #59CCAB;
@@ -63,12 +63,12 @@
     font-size: 30px;
   }
 
-  .button:hover {
+.button:hover {
     opacity: 80%;
     box-shadow: 3px 3px 7px;
   }
 
-  #new-quote:hover {
+#new-quote:hover {
     opacity: 80%;
     box-shadow: 3px 3px 7px;
   }
