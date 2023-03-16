@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+ text-align: center;
+ min-height: 100vh;
+ background-image: linear-gradient(to right, #0794B9, #59CCAB);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.QuoteBox {
+    width: 450px;
+    min-height: 250px;
+    border-radius: 7px;
+    background-color: rgb(247, 241, 233);
+    box-shadow:  3px 3px 9px;
+    position: relative;
+    
+}
+
+#author {
+    font-family: 'Great Vibes' , cursive;
+    font-size: 22px;
+}
+
+.item {
+    font-size: 20px;
+    font-family: 'Anybody', cursive;
+    margin-top: 75px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#new-quote {
+   border: none;
+   border-radius: 3px;
+   background-color: #59CCAB;
+   padding: none;
+   position: absolute;
+   font-size: 14px;
+   height: 40px;
+   width: 45px;
+   top: 195px;
+   left: 371px;
+  }
+
+  .button {
+    border: none;
+    border-radius: 3px;
+    background-color: #59CCAB;
+    position: absolute;
+    top: 195px;
+    left: 320px;
+    height: 40px;
+    width: 45px;
+    padding: 5px;
+    font-size: 30px;
+  }
+
+  .button:hover {
+    opacity: 80%;
+    box-shadow: 3px 3px 7px;
+  }
+
+  #new-quote:hover {
+    opacity: 80%;
+    box-shadow: 3px 3px 7px;
+  }
+
+
